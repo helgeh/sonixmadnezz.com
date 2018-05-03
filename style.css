@@ -1,0 +1,380 @@
+/*
+Theme Name: Sonix Madnezz
+Author: Helge Hofstad
+Author URI: http://jelgue.net/
+Version: 0.1
+*/
+
+
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+html {
+  overflow-y:scroll;
+}
+      
+body {
+  padding-bottom: 40px;
+  padding-top: 62px;
+  background: url(img/pw_maze_black2.png);
+  color: #f06d06;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f06d06;
+}
+
+hr.spacer {
+  margin: 40px 0;
+  border: 0;
+  height: 1px;
+}
+
+article p {
+  color: #999;
+}
+
+.footer {
+  margin-top: 60px;
+  color: #999;
+}
+
+.navbar-fixed-top {
+  margin-bottom: 0;
+}
+
+.navbar-fixed-top .navbar-inner,.navbar-static-top .navbar-inner{
+  -webkit-box-shadow:0 5px 80px rgba(0,0,0,.3);
+  -moz-box-shadow:0 5px 80px rgba(0,0,0,.3);
+  box-shadow: 0 5px 80px rgba(0,0,0,.3);
+  padding: 8px 0;
+}
+
+.navbar .brand {
+  margin-top: 5px;
+  font-family: 'Griffy', cursive;
+  font-size: 25px;
+}
+
+.navbar .nav {
+  margin: 5px 10px 0 0;
+}
+
+.navbar .nav  a {
+  color: #f06d06;
+}
+
+.navbar-inverse .nav>li>a:focus, .navbar-inverse .nav>li>a:hover {
+  background-color: #666;
+  background-color: rgba(240, 109, 6, 0.4);
+  color: #ffffff;
+}
+
+.nav-pills > .current_page_parent a, .nav-pills > .current_page_parent > a:hover ,
+.nav-pills > .current-menu-item a, .nav-pills > .current-menu-item > a:hover {
+	color: white !important;
+	background-color: #f06d06;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #333;
+}
+
+.nav-tabs {
+  margin-bottom: 0;
+}
+
+.tab-content {
+  background-color: white;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+.tab-pane {
+  /*padding: 0 25px;*/
+}
+
+.homelinks img {
+  margin-bottom: 25px;
+}
+
+
+
+
+/* Assistive text */
+.assistive-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+#access a.assistive-text:active,
+#access a.assistive-text:focus {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	color: #1982d1;
+	clip: auto !important;
+	font-size: 12px;
+	position: absolute;
+	text-decoration: underline;
+	top: 0;
+	left: 7.6%;
+}
+
+
+
+
+
+    /* WORDPRESS CONTACT FORM 7
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+
+      .controls {
+        margin-bottom: 20px;
+      }
+
+      .controls input[type="email"] {
+        margin-left: 20px;
+      }
+
+      div.wpcf7-response-output {
+        margin: 2em 0.5em 1em;
+        padding: 0.2em 1em;
+      }
+
+      div.wpcf7-mail-sent-ok {
+        /*border: 2px solid #398f14;*/
+      }
+
+      div.wpcf7-mail-sent-ng {
+        /*border: 2px solid #ff0000;*/
+      }
+
+      div.wpcf7-spam-blocked {
+        /*border: 2px solid #ffa500;*/
+      }
+
+      div.wpcf7-validation-errors {
+        /*border: 2px solid #f7e700;*/
+      }
+
+      span.wpcf7-form-control-wrap {
+        position: relative;
+      }
+
+      span.wpcf7-not-valid-tip {
+        position: absolute;
+        top: 25px;
+        right: -20px;
+        z-index: 100;
+        /*background: #fff;
+        border: 1px solid #ff0000;*/
+        font-size: 10pt;
+        width: 280px;
+        padding: 2px;
+      }
+
+      span.wpcf7-not-valid-tip-no-ajax {
+        color: #f00;
+        font-size: 10pt;
+        display: block;
+      }
+
+      span.wpcf7-list-item {
+        margin-left: 0.5em;
+      }
+
+      .wpcf7-display-none {
+        display: none;
+      }
+
+      div.wpcf7 img.ajax-loader {
+        border: none;
+        vertical-align: middle;
+        margin-left: 4px;
+      }
+
+      div.wpcf7 .placeheld {
+        color: #888;
+      }
+
+
+
+
+
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 180px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+    .carousel img {
+      width: 100%;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (min-width: 1200px) {
+      .controls input[type="email"] {
+        margin-left: 30px;
+      }
+    }
+
+    @media (max-width: 979px) {
+
+      body {
+        padding-top: 0;
+      }
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+
+      .carousel img {
+        width: 100%;
+      }
+
+      .carousel-caption {
+        margin-top: 120px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .controls input[type="email"] {
+        margin-left: 0;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 60px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
