@@ -1,11 +1,6 @@
 <?php
 
 
-// HIDE ADMIN BAR FROM FRONT END
-add_filter('show_admin_bar', '__return_false');  
-
-
-
 function register_my_menus() {
   register_nav_menus(
     array( 'header-menu' => __( 'Header Menu' ) )
